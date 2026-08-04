@@ -17,10 +17,10 @@ public class Greeter {
     return String.format("Hello, %s!", someone);
   } */
 
-  public String greet(String someone) {
-    String name = null;
-    return name.toUpperCase();
-  }
+ public String greet(String someone) {
+    int age = 25;   // Unused variable
+    return String.format("Hello, %s!", someone);
+}
   
 }
 
