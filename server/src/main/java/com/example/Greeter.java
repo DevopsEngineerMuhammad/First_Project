@@ -13,15 +13,9 @@ public class Greeter {
   }
   // Adding a new comment
   //TODO: Add javadoc comment
-   /** public String greet(String someone) {
+    public String greet(String someone) {
     return String.format("Hello, %s!", someone);
-  } */
-
-  public String greet(String someone) {
-    String password = "admin123";
-    return String.format("Hello, %s!", someone);
-}
-
+  } 
   
 }
 
