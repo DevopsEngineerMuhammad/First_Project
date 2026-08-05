@@ -122,3 +122,29 @@ Junior DevOps Engineer
 
 GitHub:
 https://github.com/DevopsEngineerMuhammad
+
+---
+
+# 📸 Project Screenshots
+
+## Jenkins CI/CD Pipeline
+
+![Jenkins Pipeline](images/jenkins-pipeline-stage-view.png)
+
+---
+
+## SonarQube Dashboard
+
+![SonarQube Dashboard](images/sonarqube-dashboard.png)
+
+---
+
+## AWS S3 Artifact
+
+![AWS S3 Artifact](images/aws-s3-artifact.png)
+
+---
+
+## Apache Tomcat Deployment
+
+![Tomcat Deployment](images/tomcat-deployed-application.png)
