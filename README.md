@@ -17,32 +17,7 @@ The pipeline automatically:
 
 ## 🏗️ Project Architecture
 
-```text
-                +------------------+
-                |      GitHub      |
-                +------------------+
-                         │
-                         ▼
-                +------------------+
-                |     Jenkins      |
-                +------------------+
-                         │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-+-------------+   +-------------+   +-------------+
-|    Maven    |   | SonarQube   |   |   AWS S3    |
-+-------------+   +-------------+   +-------------+
-                         │
-                         ▼
-                +------------------+
-                | Apache Tomcat    |
-                +------------------+
-                         │
-                         ▼
-                +------------------+
-                | Web Application  |
-                +------------------+
-```
+![Project Architecture](images/project-architecture.png)
 
 ## Technologies Used
 
