@@ -70,9 +70,6 @@ Jenkins
 ---
 
 ## Repository Structure
-## Repository Structure
-
-## Repository Structure
 
 ```
 First_Project/
