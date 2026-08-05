@@ -15,24 +15,34 @@ The pipeline automatically:
 
 ---
 
-## Project Architecture
+## 🏗️ Project Architecture
 
-GitHub
-   │
-   ▼
-Jenkins
-   │
-   ├── Checkout Source Code
-   ├── Unit Testing (Maven)
-   ├── Compile Application
-   ├── SonarQube Analysis
-   ├── Upload WAR to AWS S3
-   └── Deploy to Apache Tomcat
-                │
-                ▼
-          Running Web Application
-
----
+```text
+                +------------------+
+                |      GitHub      |
+                +------------------+
+                         │
+                         ▼
+                +------------------+
+                |     Jenkins      |
+                +------------------+
+                         │
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
++-------------+   +-------------+   +-------------+
+|    Maven    |   | SonarQube   |   |   AWS S3    |
++-------------+   +-------------+   +-------------+
+                         │
+                         ▼
+                +------------------+
+                | Apache Tomcat    |
+                +------------------+
+                         │
+                         ▼
+                +------------------+
+                | Web Application  |
+                +------------------+
+```
 
 ## Technologies Used
 
