@@ -70,15 +70,22 @@ Jenkins
 ---
 
 ## Repository Structure
+## Repository Structure
+
+## Repository Structure
 
 ```
 First_Project/
 │
+├── images/
 ├── server/
+│   ├── src/
+│   └── pom.xml
 ├── webapp/
-├── Dockerfile
-├── pom.xml
+│   ├── src/
+│   └── pom.xml
 ├── Jenkinsfile
+├── pom.xml
 └── README.md
 ```
 
