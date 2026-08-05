@@ -71,38 +71,7 @@ First_Project/
 └── README.md
 ```
 
----
-
-## CI/CD Workflow
-
-Developer
-
-↓
-
-GitHub Repository
-
-↓
-
-Jenkins Pipeline
-
-↓
-
-Maven Build
-
-↓
-
-SonarQube Analysis
-
-↓
-
-AWS S3 Artifact Storage
-
-↓
-
-Apache Tomcat Deployment
-
----
-
+```
 ## Author
 
 Muhammad Ullah
