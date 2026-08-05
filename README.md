@@ -15,7 +15,7 @@ The pipeline automatically:
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ![Project Architecture](images/project-architecture.png)
 
